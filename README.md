@@ -2,7 +2,10 @@
 
 used to monitor certain value in vuex store.
 
-# usage:
+## usage:
+
+```javascript
 import Monitor from "./Monitor"
 
 <Monitor :root="$store.getters" />
+```
